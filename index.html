@@ -4,6 +4,8 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=Roboto&display=swap" rel="stylesheet">
     <script src='https://kit.fontawesome.com/f9095bad89.js' crossorigin='anonymous'></script>
     <link rel='stylesheet' type='text/css' href='styles.css'>
     <title>Ranch!</title>
@@ -13,7 +15,7 @@
         <section class='header-login'>
             <i class="fas fa-user-circle"></i>
             <form class='user-drop-down' action='drop-down'>
-                <select name='username' id='userNameInput'>
+                <select class='username' id='userNameInput'>
                     <option value='r-carr'>Admin/r_carroll</option>
                     <option value='other'>Switch User</option>
                 </select>
@@ -29,7 +31,7 @@
                         <form class='drop-down' action='drop-down'>
                             <select name='sort' id='ranchSort'>
                                 <option value='r-carr'>SORT BY</option>
-                                <option value='ranking'>Ranking</option>
+                                <option value='ranking'>RANKING</option>
                                 <option value='a-z'>A-Z</option>
                             </select>
                         </form></li>
@@ -52,7 +54,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>01</p>
                         </div>
@@ -60,13 +62,13 @@
                 </div>
                 <article class="card-content-area">
                     <h3 class="card-text">Hidden Valley Ranch</h3>
-                    <p class="card-description">The stuff of legends</p>
+                    <p class="card-description">The stuff of legends.</p>
                     <div class="card-link-area"><a href='https://www.hiddenvalleyranch.com'>https://www.hiddenvalleyranch.com</a>
                     </div>
-                    <p class='card-secondary-text'>REGION</p>
-                    <p class='card-text'>Midwest</p>
-                    <p class='card-secondary-text'>SHARES</p>
-                    <p class='card-shares'>08</p>
+                        <p class='card-secondary-text'>REGION</p>
+                        <p class='card-text'>Midwest</p>
+                        <p class='card-secondary-text'>SHARES</p>
+                        <p class='card-shares'>08</p>
                 </article>
             </article>
             <article class='card'>
@@ -76,7 +78,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>02</p>
                         </div>
@@ -84,13 +86,13 @@
                 </div>
                 <article class="card-content-area">
                     <h3 class="card-text">Trader Joe's Ranch</h3>
-                    <p class="card-description">Another great TJ's buy</p>
-                    <div class="card-link-area"><a href='https://www.traderjoes.com'>https://www.traderjoes.com</a>
+                    <p class="card-description">Another great TJ's buy.</p>
+                    <div class="card-link-area"><a href='https://www.traderjoes.com/home/products/'>https://www.traderjoes.com/home/products/</a>
                     </div>
-                    <p class='card-secondary-text'>REGION</p>
-                    <p class='card-text'>California</p>
-                    <p class='card-secondary-text'>SHARES</p>
-                    <p class='card-shares'>06</p>
+                        <p class='card-secondary-text'>REGION</p>
+                        <p class='card-text'>California</p>
+                        <p class='card-secondary-text'>SHARES</p>
+                        <p class='card-shares'>06</p>
                 </article>
             </article>
             <article class='card'>
@@ -100,7 +102,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>03</p>
                         </div>
@@ -124,7 +126,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>04</p>
                         </div>
@@ -133,7 +135,7 @@
                 <article class="card-content-area">
                     <h3 class="card-text">Sir Kensington's</h3>
                     <p class="card-description">Avocados are healthy, right?</p>
-                    <div class="card-link-area"><a href='https://www.sirkensingtons.com/'>https://www.sirkensingtons.com/</a>
+                    <div class="card-link-area"><a href='https://www.sirkensingtons.com/product/ranch'>https://www.sirkensingtons.com/product/ranch</a>
                     </div>
                     <p class='card-secondary-text'>REGION</p>
                     <p class='card-text'>Northeast</p>
@@ -148,7 +150,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>05</p>
                         </div>
@@ -156,7 +158,7 @@
                 </div>
                 <article class="card-content-area">
                     <h3 class="card-text">Kraft Ranch</h3>
-                    <p class="card-description">A household staple</p>
+                    <p class="card-description">Your Midwest Mom's ranch.</p>
                     <div class="card-link-area"><a href='https://www.kraftheinzcompany.com/'>https://www.kraftheinzcompany.com/</a>
                     </div>
                     <p class='card-secondary-text'>REGION</p>
@@ -172,7 +174,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>06</p>
                         </div>
@@ -180,7 +182,7 @@
                 </div>
                 <article class='card-content-area'>
                     <h3 class='card-text'>Newman's Own</h3>
-                    <p class='card-description'>Just average</p>
+                    <p class='card-description'>Just average.</p>
                     <div class='card-link-area'><a href='https://newmansown.com/'>https://newmansown.com/</a>
                     </div>
                     <p class='card-secondary-text'>REGION</p>
@@ -196,7 +198,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>07</p>
                         </div>
@@ -204,7 +206,7 @@
                 </div>
                 <article class="card-content-area">
                     <h3 class='card-text'>Wish-Bone</h3>
-                    <p class="card-description">You'll wish you hadn't</p>
+                    <p class="card-description">You'll wish you hadn't.</p>
                     <div class="card-link-area"><a href='https://www.wish-bone.com/creamy-dressing/ranch'>https://www.wish-bone.com/creamy-dressing/ranch</a>
                     </div>
                     <p class='card-secondary-text'>REGION</p>
@@ -220,7 +222,7 @@
                         <button class='share-button'>
                             <i class="fas fa-share"></i>
                         </button>
-                        <div class='card-views-section'>
+                        <div class='card-ranking-section'>
                             <p class='card-ranking-title'>RANKING</p>
                             <p class='card-ranking'>08</p>
                         </div>
