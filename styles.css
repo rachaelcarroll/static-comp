@@ -254,9 +254,6 @@ select {
   	color: var(--main-font-color);
 }
 
-.fa-share:hover{
-	color:var(--main-highlight-color);
-}
 
 .card-ranking-section {
 	color: white;
@@ -309,3 +306,58 @@ select {
 	margin-bottom: 8px;
   }
 
+/* HOVER STATES */
+
+.card:hover {
+	cursor: pointer;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+.fa-share:hover {
+	color:var(--main-highlight-color);
+	cursor: pointer;
+}
+
+.header-links:hover {
+	cursor: pointer;
+}
+
+/* Media-queries */
+
+@media screen and (max-width: 960px) {
+	.grid {
+	  -ms-grid-columns: (minmax(200px, 1fr)) [3];
+	  grid-template-columns: repeat(3, minmax(200px, 1fr));
+	}
+  }
+  
+  @media screen and (max-width: 790px) {
+	.grid {
+	  -ms-grid-columns: (minmax(200px, 1fr)) [2];
+	  grid-template-columns: repeat(2, minmax(200px, 1fr));
+	}
+  
+	.header-nav {
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: reverse;
+	  -ms-flex-direction: column-reverse;
+	  flex-direction: column-reverse;
+	}
+  }
+  
+  @media screen and (max-width: 525px) {
+	.grid {
+	  -ms-grid-columns: (minmax(200px, 1fr)) [1];
+	  grid-template-columns: repeat(1, minmax(200px, 1fr));
+	}
+  
+	.header-links {
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	}
+  }
