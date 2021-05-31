@@ -52,14 +52,14 @@ table {
 	--main-highlight-color: #299ddb;
 	--main-page-color: #efefef;
 	--main-font-color: #5f5f5f;
+	--main-icon-color: #c2c2c2;
   }
 
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
-
 
 a {
 	color: var(--main-font-color);
@@ -73,7 +73,7 @@ h1 {
 	font-size: 42px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
   }
 
 h2 {
@@ -88,6 +88,10 @@ h3 {
 	font-family: "Oswald", sans-serif;
 	font-size: 20px;
 	margin-bottom: 6px;
+}
+
+p {
+	color: var(--main-font-color);
 }
 
 /* header/nav */
@@ -158,8 +162,8 @@ select {
 .header-shares,
 .header-sort,
 .header-account {
-	font-family: 'Roboto', sans-serif; 
 	color: var(--main-highlight-color);
+	font-family: 'Montserrat', sans-serif;
 	padding: 0px 10px 15px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -174,7 +178,7 @@ select {
 .fa-user {
   font-size: 20px;
   padding: 0px 6px 1px;
-  color: var(--main-font-color)
+  color: var(--main-icon-color);
 }
 
 .fa-share-alt-square {
@@ -246,12 +250,16 @@ select {
 }
 
 .fa-share {
-  font-size: 23px;
-  color: var(--main-font-color);
+	font-size: 23px;
+  	color: var(--main-font-color);
+}
+
+.fa-share:hover{
+	color:var(--main-highlight-color);
 }
 
 .card-ranking-section {
-	color: #ffffff;
+	color: white;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -259,6 +267,11 @@ select {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+}
+
+.card-ranking-title,
+.card-ranking {
+	color: var(--main-page-color);
 }
 
 .card-ranking {
@@ -278,7 +291,7 @@ select {
 
 .card-link-area {
 	border-radius: 3px;
-	background-color: #efefef;
+	background-color: var(--main-page-color);
 	padding: 5px;
 	overflow-wrap: break-word;
 }
