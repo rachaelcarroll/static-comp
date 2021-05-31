@@ -312,7 +312,7 @@ select {
 	cursor: pointer;
 }
 
-select:hover {
+.header-links:hover {
 	cursor: pointer;
 }
 
@@ -321,9 +321,11 @@ select:hover {
 	cursor: pointer;
 }
 
-.header-links:hover {
+select:hover {
 	cursor: pointer;
 }
+
+
 
 /* Media-queries */
 
