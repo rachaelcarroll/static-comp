@@ -225,6 +225,7 @@ select {
 }
 
 .card-photo-area-overlay {
+	background-color: rgba(0,0,0,0.2);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -236,6 +237,7 @@ select {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	padding: 12px;
+	height: 200px;
 }
 
 .share-button {
@@ -324,7 +326,6 @@ select {
 select:hover {
 	cursor: pointer;
 }
-
 
 
 /* Media-queries */
