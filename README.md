@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was completed in week 9 of [Turing School of Software and Design](https://turing.io/).  The goal of this weekend-long solo[project](https://frontend.turing.edu/projects/module-1/m1-static-comp) was to replicate a static comp using HTML and CSS.  
+This project was completed in week 9 of [Turing School of Software and Design](https://turing.io/).  The goal of this weekend-long solo [project](https://frontend.turing.edu/projects/module-1/m1-static-comp) was to replicate a static comp using HTML and CSS.  
 
 Given the comp below, we were to recreate the layout, while having creative license with the color palette, icons, images, and copy.  As a ranch connoiseur, I chose to rank some of my favorite ranch brands. You can view the deployed site [here!]()
 
