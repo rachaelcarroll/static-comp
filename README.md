@@ -13,7 +13,7 @@ To solidify and demonstrate the understanding of:
 - Utlizing a grid layout
 - Writing clean and DRY HTML and CSS
 - Making the site responsive to different screen sizes and across different browsers such as Firefox, Safari, and Chrome
-- Using a reset or normalize. I chose to use Eric Meyer's Reset CSS file because I wanted the most consistency across all browsers.
+- Using a reset or normalize. I chose to use [Eric Meyer's Reset CSS file](https://meyerweb.com/eric/tools/css/reset/) because I wanted the most consistency across all browsers.
 
 
 ### The Provided Comp:
